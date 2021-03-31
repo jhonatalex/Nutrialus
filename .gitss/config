@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "Nutrialus"]
+	url = https://github.com/jhonatalex/Nutrialus.git
+	fetch = +refs/heads/*:refs/remotes/Nutrialus/*
+[remote "App_Nutrialus"]
+	url = https://github.com/jhonatalex/Nutrialus.git
+	fetch = +refs/heads/*:refs/remotes/App_Nutrialus/*
